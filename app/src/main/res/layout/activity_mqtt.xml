@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mqttActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mqtt_subscribe_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscribe"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mqtt_message_btn"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/mqtt_subscribe_btn"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mqttCerrar"
+        android:layout_below="@+id/mqtt_message_btn"
+        android:text="Cerrar sesion mqtt"
+        android:textAllCaps="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "145705098903",
+    "project_id": "tiendacomp-2023",
+    "storage_bucket": "tiendacomp-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145705098903:android:b23b85ef54dcc54506d3d2",
+        "android_client_info": {
+          "package_name": "com.example.tiendav1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7uCF8ceVlJ_N4ymV6-t5K_hJB8WQA0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
